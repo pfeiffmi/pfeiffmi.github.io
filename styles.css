@@ -375,7 +375,7 @@ small {
 	/* align-items: center; */
 }
 
-.hire-btn {
+.cv-btn {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	display: inline-block;
@@ -388,7 +388,7 @@ small {
 	overflow: hidden;
 }
 
-.hire-btn::before {
+.cv-btn::before {
 	content: '';
 	z-index: -1;
 	position: absolute;
@@ -403,27 +403,14 @@ small {
 	transition: transform 0.45s ease-in-out;
 }
 
-.hire-btn:hover {
+.cv-btn:hover {
 	cursor: pointer;
 	color: hsl(0, 0%, 9%);
 	border: 0;
 }
 
-.hire-btn:hover::before {
+.cv-btn:hover::before {
 	transform: translate3d(50%, -50%, 0) scale3d(15, 15, 15);
-}
-
-.download-link {
-	color: var(--other-clr);
-	transition: color 0.45s ease-in-out;
-}
-
-.download-link:hover {
-	color: #fff;
-}
-
-.download-link:focus {
-	outline: none;
 }
 
 /*******************
